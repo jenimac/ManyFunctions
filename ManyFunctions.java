@@ -79,7 +79,8 @@ public class ManyFunctions
     public static Boolean isVowel(char z)
     {
         // TODO
-        if ((""+ z).equalsIgnoreCase("" + 'a')||(""+z).equalsIgnoreCase("e")||(""+z).equalsIgnoreCase("i")||(""+z).equalsIgnoreCase("o")||(""+z).equalsIgnoreCase("u")){
+        if ((""+ z).equalsIgnoreCase("" + 'a')||(""+z).equalsIgnoreCase("e")||(""+z).equalsIgnoreCase("i")||
+        (""+z).equalsIgnoreCase("o")||(""+z).equalsIgnoreCase("u")){
             return true;
         }else{
             return false;
@@ -97,7 +98,8 @@ public class ManyFunctions
     public static Boolean isConsonant(char z)
     {
         // TODO
-        if ((""+z).equalsIgnoreCase(""+'a')||(""+z).equalsIgnoreCase("e")||(""+z).equalsIgnoreCase("i")||(""+z).equalsIgnoreCase("o")||(""+z).equalsIgnoreCase("u")){
+        if ((""+z).equalsIgnoreCase(""+'a')||(""+z).equalsIgnoreCase("e")||(""+z).equalsIgnoreCase("i")||
+        (""+z).equalsIgnoreCase("o")||(""+z).equalsIgnoreCase("u")){
             return false;
         }else{
             return true;
