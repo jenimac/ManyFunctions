@@ -29,7 +29,7 @@ public class ManyFunctions
             return a;
         }else{
             return b;
-            }    
+        }    
     }
 
     /**
